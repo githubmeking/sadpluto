@@ -5,11 +5,11 @@ from dotenv import load_dotenv
 load_dotenv()
 
 
-API_ID = int(getenv("API_ID",20213849))
-API_HASH = getenv("API_HASH","e97df0eca2a9531c80202c1a7d3f5721")
+API_ID = int(getenv("API_ID",213))
+API_HASH = getenv("API_HASH","321")
 
-BOT_TOKEN = getenv("BOT_TOKEN", "6591274198:AAFFsE0pTw3tUE9kq49QjUBarwLaQTdjurY")
-MONGO_URL = getenv("MONGO_URL", "mongodb+srv://sadbot19033:sadbotbey@cluster0.01dwa.mongodb.net/")
+BOT_TOKEN = getenv("BOT_TOKEN", "sadsafsdfsdfdsfsd")
+MONGO_URL = getenv("MONGO_URL", "")
 DURATION_LIMIT = int(getenv("DURATION_LIMIT", "90"))
 
 OWNER_ID = int(getenv("OWNER_ID",6180151150))
@@ -23,7 +23,7 @@ SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/hurkanal")
 SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/hurkanal")
 PLAYLIST = getenv("PLAYLIST", "https://t.me/hurkanal")
 
-PLAYLIST_ID = int(getenv("PLAYLIST_ID", "-1001948236041"))
+PLAYLIST_ID = int(getenv("PLAYLIST_ID", "-21212"))
 
 
 FAILED = "https://te.legra.ph/file/4c896584b592593c00aa8.jpg"
