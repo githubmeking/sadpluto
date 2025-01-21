@@ -23,7 +23,7 @@ SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/hurkanal")
 SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/hurkanal")
 PLAYLIST = getenv("PLAYLIST", "https://t.me/hurkanal")
 
-PLAYLIST_ID = int(getenv("PLAYLIST_ID", ""))
+PLAYLIST_ID = int(getenv("PLAYLIST_ID", "-1001948236041"))
 
 
 FAILED = "https://te.legra.ph/file/4c896584b592593c00aa8.jpg"
